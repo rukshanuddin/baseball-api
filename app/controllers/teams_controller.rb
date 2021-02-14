@@ -4,6 +4,10 @@ class TeamsController < ApplicationController
         @teams = Team.all
         render json: @teams
     end
+    def ranked
+        @teams = Team.all.sort_by { |hash| hash['RBI'] }.reverse
+        render json: @teams
+    end
 
     def show
         render json: @team
