@@ -1,28 +1,28 @@
 class CreatePlayers < ActiveRecord::Migration[6.1]
   def change
     create_table :players do |t|
-      t.string :name
-      t.string :team
-      t.integer :g
-      t.integer :pa
-      t.integer :hr
-      t.integer :r
-      t.integer :rbi
-      t.integer :sb
-      t.string :bb
-      t.string :k
-      t.string :iso
-      t.string :babip
-      t.string :avg
-      t.string :obp
-      t.string :slg
-      t.string :woba
-      t.string :wrc
-      t.float :ev
-      t.float :bsr
-      t.float :off
-      t.float :def
-      t.float :war
+      t.string :Name
+      t.string :Team
+      t.integer :G
+      t.integer :PA
+      t.integer :HR
+      t.integer :R
+      t.integer :RBI
+      t.integer :SB
+      t.string :BB
+      t.string :K
+      t.string :ISO
+      t.string :BABIP
+      t.string :AVG
+      t.string :OBP
+      t.string :SLG
+      t.string :wOBA
+      t.string :wRC
+      t.float :EV
+      t.float :BsR
+      t.float :Off
+      t.float :Def
+      t.float :WAR
       t.integer :playerid
 
       t.timestamps
