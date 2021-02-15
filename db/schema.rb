@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_14_055240) do
+ActiveRecord::Schema.define(version: 2021_02_14_215044) do
 
   create_table "games", force: :cascade do |t|
     t.integer "date"
@@ -178,9 +178,10 @@ ActiveRecord::Schema.define(version: 2021_02_14_055240) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "players", force: :cascade do |t|
-    t.string "Name"
-    t.string "Team"
+  create_table "player_stats", force: :cascade do |t|
+    t.string "name"
+    t.integer "team_stat_id"
+    t.string "team_name"
     t.integer "G"
     t.integer "PA"
     t.integer "HR"
@@ -204,10 +205,30 @@ ActiveRecord::Schema.define(version: 2021_02_14_055240) do
     t.integer "playerid"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["team_stat_id"], name: "index_player_stats_on_team_stat_id"
   end
 
-  create_table "teams", force: :cascade do |t|
-    t.string "Team"
+  create_table "players", force: :cascade do |t|
+    t.integer "team_id"
+    t.string "firstName"
+    t.string "lastName"
+    t.string "number"
+    t.string "country"
+    t.integer "teamID"
+    t.integer "weight"
+    t.string "position"
+    t.string "sport"
+    t.integer "playerID"
+    t.integer "height"
+    t.string "image"
+    t.json "videos"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["team_id"], name: "index_players_on_team_id"
+  end
+
+  create_table "team_stats", force: :cascade do |t|
+    t.string "team_name"
     t.integer "G"
     t.integer "PA"
     t.integer "HR"
@@ -229,6 +250,20 @@ ActiveRecord::Schema.define(version: 2021_02_14_055240) do
     t.float "Off"
     t.float "Def"
     t.float "WAR"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "teams", force: :cascade do |t|
+    t.string "name"
+    t.string "city"
+    t.string "initials"
+    t.integer "teamID"
+    t.integer "wins"
+    t.integer "losses"
+    t.string "form"
+    t.integer "color"
+    t.string "leagueCode"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

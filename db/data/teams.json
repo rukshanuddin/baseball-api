@@ -1,6 +1,6 @@
 [
   {
-    "Team": "White Sox",
+    "team_name": "White Sox",
     "G": 889,
     "PA": 2267,
     "HR": 96,
@@ -23,7 +23,7 @@
     "WAR": 13.6
   },
   {
-    "Team": "Padres",
+    "team_name": "Padres",
     "G": 913,
     "PA": 2231,
     "HR": 95,
@@ -46,7 +46,7 @@
     "WAR": 12.7
   },
   {
-    "Team": "Dodgers",
+    "team_name": "Dodgers",
     "G": 921,
     "PA": 2316,
     "HR": 118,
@@ -69,7 +69,7 @@
     "WAR": 12.4
   },
   {
-    "Team": "Braves",
+    "team_name": "Braves",
     "G": 900,
     "PA": 2344,
     "HR": 103,
@@ -92,7 +92,7 @@
     "WAR": 11.1
   },
   {
-    "Team": "Mets",
+    "team_name": "Mets",
     "G": 902,
     "PA": 2279,
     "HR": 86,
@@ -115,7 +115,7 @@
     "WAR": 10
   },
   {
-    "Team": "Yankees",
+    "team_name": "Yankees",
     "G": 878,
     "PA": 2210,
     "HR": 94,
@@ -138,7 +138,7 @@
     "WAR": 9.7
   },
   {
-    "Team": "Athletics",
+    "team_name": "Athletics",
     "G": 865,
     "PA": 2201,
     "HR": 71,
@@ -161,7 +161,7 @@
     "WAR": 9.7
   },
   {
-    "Team": "Rays",
+    "team_name": "Rays",
     "G": 946,
     "PA": 2261,
     "HR": 80,
@@ -184,7 +184,7 @@
     "WAR": 9.5
   },
   {
-    "Team": "Twins",
+    "team_name": "Twins",
     "G": 882,
     "PA": 2168,
     "HR": 91,
@@ -207,7 +207,7 @@
     "WAR": 9.4
   },
   {
-    "Team": "Giants",
+    "team_name": "Giants",
     "G": 974,
     "PA": 2259,
     "HR": 81,
@@ -230,7 +230,7 @@
     "WAR": 9.3
   },
   {
-    "Team": "Cubs",
+    "team_name": "Cubs",
     "G": 908,
     "PA": 2214,
     "HR": 74,
@@ -253,7 +253,7 @@
     "WAR": 8.6
   },
   {
-    "Team": "Angels",
+    "team_name": "Angels",
     "G": 890,
     "PA": 2308,
     "HR": 85,
@@ -276,7 +276,7 @@
     "WAR": 8.5
   },
   {
-    "Team": "Cardinals",
+    "team_name": "Cardinals",
     "G": 827,
     "PA": 2011,
     "HR": 51,
@@ -299,7 +299,7 @@
     "WAR": 7.6
   },
   {
-    "Team": "Red Sox",
+    "team_name": "Red Sox",
     "G": 884,
     "PA": 2304,
     "HR": 81,
@@ -322,7 +322,7 @@
     "WAR": 7.1
   },
   {
-    "Team": "Royals",
+    "team_name": "Royals",
     "G": 940,
     "PA": 2200,
     "HR": 68,
@@ -345,7 +345,7 @@
     "WAR": 7
   },
   {
-    "Team": "Phillies",
+    "team_name": "Phillies",
     "G": 875,
     "PA": 2223,
     "HR": 82,
@@ -368,7 +368,7 @@
     "WAR": 6.9
   },
   {
-    "Team": "Indians",
+    "team_name": "Indians",
     "G": 869,
     "PA": 2247,
     "HR": 59,
@@ -391,7 +391,7 @@
     "WAR": 6.9
   },
   {
-    "Team": "Astros",
+    "team_name": "Astros",
     "G": 860,
     "PA": 2229,
     "HR": 69,
@@ -414,7 +414,7 @@
     "WAR": 5.7
   },
   {
-    "Team": "Blue Jays",
+    "team_name": "Blue Jays",
     "G": 910,
     "PA": 2263,
     "HR": 88,
@@ -437,7 +437,7 @@
     "WAR": 5.6
   },
   {
-    "Team": "Tigers",
+    "team_name": "Tigers",
     "G": 882,
     "PA": 2076,
     "HR": 62,
@@ -460,7 +460,7 @@
     "WAR": 5.2
   },
   {
-    "Team": "Mariners",
+    "team_name": "Mariners",
     "G": 843,
     "PA": 2181,
     "HR": 60,
@@ -483,7 +483,7 @@
     "WAR": 5.1
   },
   {
-    "Team": "Reds",
+    "team_name": "Reds",
     "G": 889,
     "PA": 2123,
     "HR": 90,
@@ -506,7 +506,7 @@
     "WAR": 5
   },
   {
-    "Team": "Diamondbacks",
+    "team_name": "Diamondbacks",
     "G": 862,
     "PA": 2238,
     "HR": 58,
@@ -529,7 +529,7 @@
     "WAR": 4.9
   },
   {
-    "Team": "Orioles",
+    "team_name": "Orioles",
     "G": 906,
     "PA": 2242,
     "HR": 77,
@@ -552,7 +552,7 @@
     "WAR": 4.4
   },
   {
-    "Team": "Brewers",
+    "team_name": "Brewers",
     "G": 906,
     "PA": 2188,
     "HR": 75,
@@ -575,7 +575,7 @@
     "WAR": 4.4
   },
   {
-    "Team": "Marlins",
+    "team_name": "Marlins",
     "G": 904,
     "PA": 2167,
     "HR": 60,
@@ -598,7 +598,7 @@
     "WAR": 3.7
   },
   {
-    "Team": "Nationals",
+    "team_name": "Nationals",
     "G": 870,
     "PA": 2218,
     "HR": 66,
@@ -621,7 +621,7 @@
     "WAR": 3.3
   },
   {
-    "Team": "Rockies",
+    "team_name": "Rockies",
     "G": 888,
     "PA": 2257,
     "HR": 63,
@@ -644,7 +644,7 @@
     "WAR": 2.6
   },
   {
-    "Team": "Pirates",
+    "team_name": "Pirates",
     "G": 873,
     "PA": 2134,
     "HR": 59,
@@ -667,7 +667,7 @@
     "WAR": 0.9
   },
   {
-    "Team": "Rangers",
+    "team_name": "Rangers",
     "G": 865,
     "PA": 2147,
     "HR": 62,

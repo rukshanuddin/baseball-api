@@ -1,8 +1,9 @@
-class CreatePlayers < ActiveRecord::Migration[6.1]
+class CreatePlayerStats < ActiveRecord::Migration[6.1]
   def change
-    create_table :players do |t|
-      t.string :Name
-      t.string :Team
+    create_table :player_stats do |t|
+      t.string :name
+      t.belongs_to :team_stat
+      t.string :team_name
       t.integer :G
       t.integer :PA
       t.integer :HR

@@ -1,13 +1,13 @@
-class TeamsController < ApplicationController
+class TeamStatsController < ApplicationController
   before_action :find_team, only: :show
   def index
-    @teams = Team.all
+    @teams = TeamStat.all
     paginate json: @teams
   end
 
   #  Get a ranked list of teams
-  def wins
-    @teams = Team.all.sort_by { |hash| hash['wins'] }.reverse
+  def ranked
+    @teams = TeamStat.all.sort_by { |hash| hash['RBI'] }.reverse
     render json: @teams
   end
 
@@ -18,6 +18,6 @@ class TeamsController < ApplicationController
   private
 
   def find_team
-    @team = Team.find(params[:id])
+    @team = TeamStat.find(params[:id])
   end
 end
