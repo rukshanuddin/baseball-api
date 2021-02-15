@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root to: 'application#root'
+  get 'api' => 'application#root'
   scope :api do
     match 'players/rankings' => 'player_stats#ranked', via: :get
     # post 'players/:id/images' => 'players/upload_images'
