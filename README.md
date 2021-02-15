@@ -43,6 +43,10 @@ The following steps will setup a Rails server for this application.
 
 [Checklist available here](https://github.com/rukshanuddin/baseball-api/blob/master/CHECKLIST.md)
 
+## Deployment
+
+The project is deployed on Heroku, [visit the players index route here.](https://baseball-api-rails.herokuapp.com/api/players)
+
 ## Built With
 
 - [Ruby](https://www.ruby-lang.org/en/) - Programming language
