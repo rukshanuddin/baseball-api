@@ -28,4 +28,6 @@
 
 ## Report
 
-- My biggest
+- My biggest difficulty in building this solution, was starting and figuring out what information to include for my models. I don't follow baseball at all, so I ended up looking through various baseball API's and stats websites for inspiration, and datasets. I wasn't sure I to model my data, so I decided to use existing information to seed my database.
+- It was really fun figuring out how to process the data and learning how different gems paginate data. I worked with a couple different gems before landing on the one I picked for my pagination.
+- I would love to be able tio figure out caching for this project. I was not able to figure out a working solution, I may have to look outside Actionpack for support here.
