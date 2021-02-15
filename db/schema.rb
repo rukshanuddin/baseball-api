@@ -221,7 +221,7 @@ ActiveRecord::Schema.define(version: 2021_02_14_215044) do
     t.integer "playerID"
     t.integer "height"
     t.string "image"
-    t.json "videos"
+    t.string "videos"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["team_id"], name: "index_players_on_team_id"

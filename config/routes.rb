@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   scope :api do
     match 'players/rankings' => 'player_stats#ranked', via: :get
-    match 'players/:id/images' => 'players/upload_images', via: :post
+    # post 'players/:id/images' => 'players/upload_images'
     # match 'players/:id/images' => 'players/images', via: :get
-    match 'players/:id/videos' => 'players/upload_videos', via: :post
+    # match 'players/:id/videos' => 'players/upload_videos', via: :post
     # match 'players/:id/videos' => 'players/videos', via: :get
     resources :players
     resources :player_stats
