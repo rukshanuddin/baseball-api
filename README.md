@@ -47,6 +47,10 @@ The following steps will setup a Rails server for this application.
 
 The project is deployed on Heroku, [visit the players index route here.](https://baseball-api-rails.herokuapp.com/api/players)
 
+## Screenshot
+
+![Screenshot of API in use](./screenshot/2021-02-17_01-35-18.png "/players path")
+
 ## Built With
 
 - [Ruby](https://www.ruby-lang.org/en/) - Programming language
