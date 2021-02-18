@@ -54,7 +54,19 @@ class PlayersController < ApplicationController
   private
 
   def player_params
-    params.require(:player_stat)
+    params.require(:player).permit(:team_id,
+                                   :firstName,
+                                   :lastName,
+                                   :number,
+                                   :country,
+                                   :teamID,
+                                   :weight,
+                                   :position,
+                                   :sport,
+                                   :playerID,
+                                   :height,
+                                   :image,
+                                   :videos)
   end
 
   def find_player
